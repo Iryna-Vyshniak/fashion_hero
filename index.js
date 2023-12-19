@@ -75,7 +75,7 @@ gsap.from('.sponsor p', {
 });
 
 // DISTORTION
-gsap.from('.distortion', {
+gsap.from('.displacement', {
   duration: 1.5,
   delay: 2,
   opacity: 0,
