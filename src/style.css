@@ -15,3 +15,178 @@ body {
 ul {
   list-style: none;
 }
+
+
+/* NAVBAR
+=========================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar > div,
+.navbar > search {
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.navbar .menu {
+  margin-right: auto;
+}
+
+.navbar .lang {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* SOCIAL MEDIA
+=========================== */
+.media ul {
+  position: absolute;
+  bottom: 250px;
+  left: -140px;
+
+  transform: rotate(-90deg);
+}
+
+.media ul li {
+  display: inline-block;
+  padding: 0 30px;
+
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* TEXT
+=========================== */
+.text {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  transform: rotate(-90deg);
+}
+
+.text h1 {
+  position: relative;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 600px;
+
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -10px;
+
+  overflow: hidden;
+}
+.text h1 .hidetext {
+  position: absolute;
+}
+
+.text h2 {
+  position: absolute;
+  top: 40px;
+  left: -80px;
+  z-index: -1;
+  color: #efde74;
+
+  font-size: 150px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text h3 {
+  position: relative;
+  height: 80px;
+
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+
+  overflow: hidden;
+}
+.text h3 .hidetext {
+  position: absolute;
+}
+
+.text p {
+  position: relative;
+
+  margin-top: 30px;
+  width: 200px;
+  height: 110px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  overflow: hidden;
+}
+.text p .hidetext {
+  position: absolute;
+}
+
+/* SPONSOR
+=========================== */
+.sponsor {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+
+  text-align: center;
+}
+
+.sponsor img {
+  width: 200px;
+  transform: rotate(-90deg);
+}
+
+.sponsor p {
+  margin-top: 20px;
+
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: rotate(180deg);
+}
+
+/* DISTORTION
+=========================== */
+.displacement {
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+
+  width: 580px;
+  height: 720px;
+}
+
+/* OVERLAY
+=========================== */
+.overlay {
+  position: absolute;
+  top: 0%;
+  z-index: 99;
+
+  width: 100%;
+  height: 100%;
+}
+
+.first {
+  background: #efde74;
+}
+
+.second {
+  left: 33.3%;
+  background: #efde74;
+}
+
+.third {
+  left: 66.6%;
+  background: #efde74;
+}
