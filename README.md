@@ -30,9 +30,10 @@ the eye.
 
 ### Getting Started
 
-1. Clone this repository to your local machine. 2. Open the index.html file to explore the
+1. Clone this repository to your local machine. 
+2. Open the index.html file to explore the
    captivating hero block.
-2. Delve into the codebase to gain insights into the seamless integration of GSAP, Three.js, and
+3. Delve into the codebase to gain insights into the seamless integration of GSAP, Three.js, and
    hover-effect.
 
 ### Explore and Learn
