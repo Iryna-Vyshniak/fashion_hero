@@ -6,6 +6,9 @@
 
 ---
 
+Experience live _demo_
+[here](https://iryna-vyshniak.github.io/fashion_hero/).
+
 Explore the power of web animation and 3D graphics with this Hero Block repository. This project
 showcases a captivating hero section implemented using three powerful libraries:
 
